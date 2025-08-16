@@ -2,15 +2,19 @@ import { Link } from "react-scroll";
 
 export default function Navbar() {
   return (
-    <div className="flex justify-between bg-blue-950 text-white px-10 py-3 shadow-blue-950/80 shadow-none sticky">
-      <div className=" font-bold text-2xl">Portfolio</div>
-      <ul className=" flex justify-center text-base items-center">
+    <div className="flex justify-between bg-black/80 backdrop-blur-lg border-b border-gray-800 text-white px-10 py-3 sticky">
+      <div className=" font-bold text-2xl">
+        <Link to="Hero" smooth={true} duration={5000} className=" cursor-pointer hover:text-cyan-300 transition">
+          Portfolio
+        </Link>
+      </div>
+      <ul className=" flex justify-center items-center text-base">
         <li>
           <Link
             to="Hero"
             smooth={true}
             duration={5000}
-            className=" cursor-pointer p-3 me-5 hover:bg-blue-500"
+            className=" cursor-pointer p-3 me-5 hover:bg-cyan-300 transition"
           >
             Home
           </Link>
@@ -20,7 +24,7 @@ export default function Navbar() {
             to="About"
             smooth={true}
             duration={5000}
-            className=" cursor-pointer p-3 me-5 hover:bg-blue-500"
+            className=" cursor-pointer p-3 me-5 hover:bg-cyan-300 transition"
           >
             About
           </Link>
@@ -30,7 +34,7 @@ export default function Navbar() {
             to="Projects"
             smooth={true}
             duration={5000}
-            className=" cursor-pointer p-3 me-5 hover:bg-blue-500"
+            className=" cursor-pointer p-3 me-5 hover:bg-cyan-300 transition"
           >
             Projects
           </Link>
@@ -40,7 +44,7 @@ export default function Navbar() {
             to="Contact"
             smooth={true}
             duration={5000}
-            className=" cursor-pointer p-3 hover:bg-blue-500"
+            className=" cursor-pointer p-3 hover:bg-cyan-300 transition"
           >
             Contact
           </Link>

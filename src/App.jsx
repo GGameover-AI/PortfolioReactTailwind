@@ -9,7 +9,7 @@ export default function App() {
   return (
     <div>
       <Navbar/>
-      <div>
+      <div className="bg-blue-950 px-12">
         <Hero />
         <About/>
         <Skills/>
