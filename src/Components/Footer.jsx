@@ -26,10 +26,10 @@ export default function Footer() {
           <div>
             <h1 className=" text-2xl mb-3">อีเมลและเบอร์โทรศัพท์</h1>
             <div>
-              <p className="mb-2 flex gap-3">
+              <p className="mb-2 flex gap-3 items-center">
                 <FaEnvelope size={24} /> xverxai236@gmail.com
               </p>
-              <p className="mb-2 flex gap-3">
+              <p className="mb-2 flex gap-3 items-center">
                 <FaPhone size={24} /> +66952799702
               </p>
             </div>
