@@ -4,7 +4,7 @@ import avatar from "../assets/avatar.png";
 export default function Hero() {
   return (
     <Element name="Hero">
-      <section className="flex justify-center items-center px-12 pt-7 pb-5 bg-gradient-to-b from-black via-gray-950 to-gray-900 ">
+      <section className="flex justify-center items-center px-12 pt-23 pb-5 bg-gradient-to-b from-black via-gray-950 to-gray-900 ">
         <div className="text-white">
           <h1 className="text-cyan-400 text-6xl font-bold drop-shadow mb-3">
             Hello,I'm Adison
@@ -17,7 +17,7 @@ export default function Hero() {
           </button>
         </div>
         <div>
-          <img src={avatar} className=" mask-b-from-0% mask-b-to-98% scale-120 brightness-105" />
+          <img src={avatar} className=" mask-b-from-0% mask-b-to-98% scale-120 brightness-110" />
         </div>
       </section>
     </Element>

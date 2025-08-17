@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 
 export default function Navbar() {
   return (
-    <div className="flex justify-between bg-black/80 backdrop-blur-lg border-b border-gray-800 text-white px-10 py-3 sticky">
+    <div className="flex justify-between bg-black/60 border-b backdrop-blur-md border-gray-800 text-white px-10 py-3 fixed top-0 left-0 w-full z-50">
       <div className=" font-bold text-2xl">
         <Link to="Hero" smooth={true} className=" cursor-pointer hover:text-cyan-300 transition">
           Portfolio
@@ -38,7 +38,7 @@ export default function Navbar() {
         </li>
         <li>
           <Link
-            to="Contact"
+            to="Footer"
             smooth={true}
             className=" cursor-pointer p-3 hover:bg-cyan-300 transition"
           >
