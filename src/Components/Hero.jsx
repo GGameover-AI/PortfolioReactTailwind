@@ -10,14 +10,14 @@ export default function Hero() {
             Hello,I'm Adison
           </h1>
           <p className="mb-2 text-base">Frontend Developer | MERN Stack Enthusiast</p>
-          <button className="px-6 py-2 bg-pink-500 hover:bg-pink-400  rounded-lg shadow-lg border-gray-700 text-white text-center">
+          <button className="px-6 pb-2 pt-1 bg-pink-500 hover:bg-pink-400  rounded-lg shadow-lg border-gray-700 text-white text-center">
             <Link to="Hero" smooth={true}>
               Projects
             </Link>
           </button>
         </div>
         <div>
-          <img src={avatar} className=" mask-b-from-0% mask-b-to-98%" />
+          <img src={avatar} className=" mask-b-from-0% mask-b-to-98% scale-120 brightness-105" />
         </div>
       </section>
     </Element>

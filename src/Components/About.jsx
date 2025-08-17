@@ -4,12 +4,12 @@ import splash from "../assets/splash.jpg";
 export default function About() {
   return (
     <Element name="About">
-      <section className="grid grid-cols-2 bg-gray-900 text-white py-10 gap-10">
+      <section className="grid grid-cols-2 bg-gray-900 text-white px-20 py-16 gap-10 items-center">
         <div>
           <img src={splash} />
         </div>
         <div>
-          <h1 className=" text-center font-bold text-5xl mb-5">About me</h1>
+          <h1 className="text-cyan-400 text-center font-bold text-5xl mb-5">About me</h1>
           <div className="text-lg space-y-6">
             <p>
               ผมสำเร็จการศึกษาจากสาขาการพัฒนาเกม{" "}
