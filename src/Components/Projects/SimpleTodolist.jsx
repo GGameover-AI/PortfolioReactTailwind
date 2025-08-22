@@ -1,10 +1,10 @@
-import githubIcon from "../../assets/Skill Icons/GitHub.svg";
-import reactIcon from "../../assets/Skill Icons/React.svg"
-import bootstrapIcon from "../../assets/Skill Icons/Bootstrap.svg"
-import nodejsIcon from "../../assets/Skill Icons/Nodejs.svg"
-import expressIcon from "../../assets/Skill Icons/Express.svg"
-import mongodbIcon from "../../assets/Skill Icons/MongoDB.svg"
-import todolistCapture from "../../assets/Images Projects/todoCapture.png"
+import githubIcon from "../../assets/SkillIcons/GitHub.svg";
+import reactIcon from "../../assets/SkillIcons/React.svg"
+import bootstrapIcon from "../../assets/SkillIcons/Bootstrap.svg"
+import nodejsIcon from "../../assets/SkillIcons/Nodejs.svg"
+import expressIcon from "../../assets/SkillIcons/Express.svg"
+import mongodbIcon from "../../assets/SkillIcons/MongoDB.svg"
+import todolistCapture from "../../assets/ImagesProjects/todoCapture.png"
 
 
 export default function SimpleTodolist() {

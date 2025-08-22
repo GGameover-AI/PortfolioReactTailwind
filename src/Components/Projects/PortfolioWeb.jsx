@@ -1,7 +1,7 @@
 import webIcon from "../../assets/webIcon.png";
-import reactIcon from "../../assets/Skill Icons/React.svg"
-import tailwindcssIcon from "../../assets/Skill Icons/Tailwind CSS.svg"
-import portfoliowebCapture from "../../assets/Images Projects/PortfolioWeb.png"
+import reactIcon from "../../assets/SkillIcons/React.svg"
+import tailwindcssIcon from "../../assets/SkillIcons/Tailwind CSS.svg"
+import portfoliowebCapture from "../../assets/ImagesProjects/PortfolioWeb.png"
 
 
 export default function PortfolioWeb() {

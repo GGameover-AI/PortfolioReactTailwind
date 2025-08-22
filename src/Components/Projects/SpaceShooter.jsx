@@ -1,8 +1,8 @@
 import googledriveIcon from "../../assets/GoogleDrive.png";
-import githubIcon from "../../assets/Skill Icons/GitHub.svg";
-import unityIcon from "../../assets/Skill Icons/Unity.svg";
-import cSharpIcon from "../../assets/Skill Icons/Csharp.svg";
-import spaceshooterCapture from "../../assets/Images Projects/space shooter.png";
+import githubIcon from "../../assets/SkillIcons/GitHub.svg";
+import unityIcon from "../../assets/SkillIcons/Unity.svg";
+import cSharpIcon from "../../assets/SkillIcons/Csharp.svg";
+import spaceshooterCapture from "../../assets/ImagesProjects/space shooter.png";
 
 export default function SpaceShooter() {
   return (

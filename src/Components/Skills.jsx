@@ -1,16 +1,16 @@
 import { Element } from "react-scroll";
-import javaScriptIcon from "../assets/Skill Icons/JavaScript.svg";
-import cSharpIcon from "../assets/Skill Icons/Csharp.svg";
-import reactIcon from "../assets/Skill Icons/React.svg";
-import booststrapIcon from "../assets/Skill Icons/Bootstrap.svg";
-import tailwindcssIcon from "../assets/Skill Icons/Tailwind CSS.svg";
-import nodejsIcon from "../assets/Skill Icons/NodeJS.svg"
-import expressIcon from "../assets/Skill Icons/Express.svg"
-import mongodbIcon from "../assets/Skill Icons/MongoDB.svg";
-import vscodeIcon from "../assets/Skill Icons/VSCode.svg";
-import githubIcon from "../assets/Skill Icons/GitHub.svg";
-import unityIcon from "../assets/Skill Icons/Unity.svg";
-import forkIcon from "../assets/Skill Icons/Fork.png";
+import javaScriptIcon from "../assets/SkillIcons/JavaScript.svg";
+import cSharpIcon from "../assets/SkillIcons/Csharp.svg";
+import reactIcon from "../assets/SkillIcons/React.svg";
+import booststrapIcon from "../assets/SkillIcons/Bootstrap.svg";
+import tailwindcssIcon from "../assets/SkillIcons/Tailwind CSS.svg";
+import nodejsIcon from "../assets/SkillIcons/NodeJS.svg"
+import expressIcon from "../assets/SkillIcons/Express.svg"
+import mongodbIcon from "../assets/SkillIcons/MongoDB.svg";
+import vscodeIcon from "../assets/SkillIcons/VSCode.svg";
+import githubIcon from "../assets/SkillIcons/GitHub.svg";
+import unityIcon from "../assets/SkillIcons/Unity.svg";
+import forkIcon from "../assets/SkillIcons/Fork.png";
 
 export default function Skills() {
   return (

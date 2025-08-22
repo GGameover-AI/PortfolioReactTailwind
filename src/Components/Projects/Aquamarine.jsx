@@ -1,8 +1,8 @@
 import googledriveIcon from "../../assets/GoogleDrive.png";
-import githubIcon from "../../assets/Skill Icons/GitHub.svg";
-import unityIcon from "../../assets/Skill Icons/Unity.svg";
-import cSharpIcon from "../../assets/Skill Icons/Csharp.svg";
-import aquamarineCapture from "../../assets/Images Projects/Aquamarine.png"
+import githubIcon from "../../assets/SkillIcons/GitHub.svg";
+import unityIcon from "../../assets/SkillIcons/Unity.svg";
+import cSharpIcon from "../../assets/SkillIcons/Csharp.svg";
+import aquamarineCapture from "../../assets/ImagesProjects/Aquamarine.png"
 
 
 export default function Aquamarine() {
