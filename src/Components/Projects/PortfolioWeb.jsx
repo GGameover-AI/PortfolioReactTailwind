@@ -13,7 +13,7 @@ export default function PortfolioWeb() {
       <img src={portfoliowebCapture} className="mb-2 shadow shadow-black hover:scale-105 hover:shadow-md transition" />
       {/* คำอธิบาย */}
       <p className="mb-5">
-        เว็บไซต์สำหรับเก็บสะสมงานและฝึกการใช้ Tailwind CSS
+        เว็บไซต์สำหรับเก็บสะสมงานและฝึกการใช้ Tailwind CSS ใช้งานง่าย และเหมาะสำหรับใช้แสดงผลงานตัวเอง
       </p>
       {/* ปุ่มลิงค์และTechStack */}
       <div className="grid grid-cols-2 gap-2 h-full justify-center items-end mt-3">
