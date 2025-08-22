@@ -11,7 +11,7 @@ export default function Hero() {
           </h1>
           <p className="mb-2 text-base">Frontend Developer | MERN Stack Enthusiast</p>
           <button className="px-6 pb-2 pt-1 bg-pink-500 hover:bg-pink-400  rounded-lg shadow-lg border-gray-700 text-white text-center">
-            <Link to="Hero" smooth={true}>
+            <Link to="Projects" smooth={true}>
               Projects
             </Link>
           </button>
