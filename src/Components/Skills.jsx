@@ -4,7 +4,7 @@ import cSharpIcon from "../assets/SkillIcons/Csharp.svg";
 import reactIcon from "../assets/SkillIcons/React.svg";
 import booststrapIcon from "../assets/SkillIcons/Bootstrap.svg";
 import tailwindcssIcon from "../assets/SkillIcons/Tailwind CSS.svg";
-import nodejsIcon from "../assets/SkillIcons/NodeJS.svg"
+import nodejsIcon from "../assets/SkillIcons/Nodejs.svg"
 import expressIcon from "../assets/SkillIcons/Express.svg"
 import mongodbIcon from "../assets/SkillIcons/MongoDB.svg";
 import vscodeIcon from "../assets/SkillIcons/VSCode.svg";
