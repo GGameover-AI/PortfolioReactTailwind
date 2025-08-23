@@ -24,7 +24,7 @@ export default function Footer() {
             </div>
           </div>
           <div>
-            <h1 className="flex flex-col items-center text-base lg:text-2xl font-bold mb-3 mt-5 md:mt-0">อีเมลและเบอร์โทรศัพท์</h1>
+            <h1 className="flex flex-col items-center md:items-start text-base lg:text-2xl font-bold mb-3 mt-5 md:mt-0">อีเมลและเบอร์โทรศัพท์</h1>
             <div>
               <p className="mb-2 flex flex-col gap-3 items-center md:items-start text-sm lg:text-lg">
                 <FaEnvelope className=" lg:size-6 sm:block hidden" /> xverxai236@gmail.com
