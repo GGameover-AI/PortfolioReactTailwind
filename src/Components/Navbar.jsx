@@ -8,7 +8,7 @@ export default function Navbar() {
           Portfolio
         </Link>
       </div>
-      <ul className=" flex justify-center items-center text-base">
+      <ul className="hidden sm:flex justify-center items-center text-base">
         <li>
           <Link
             to="Hero"
