@@ -68,8 +68,8 @@ export default function Navbar() {
         className={`sm:hidden absolute top-full left-0 w-full bg-black/80 backdrop-blur-3xl text-center py-4 
         transition-all duration-300 ease-out transform
         ${
-          isToggle ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-1 "
-        } pointer-events-none z-49`}
+          isToggle ? "opacity-100 translate-y-0 pointer-events-auto" : "opacity-0 -translate-y-1 pointer-events-none "
+        } z-49 `}
       >
         <li>
           <Link to="Hero" smooth={true} className="block p-2">
