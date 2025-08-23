@@ -15,18 +15,19 @@ import forkIcon from "../assets/SkillIcons/Fork.png";
 export default function Skills() {
   return (
     <Element name="Skills">
-      <section className="flex flex-col justify-center items-center bg-gray-900 text-white px-20 py-20">
-        <h1 className="text-5xl font-bold text-cyan-500 mb-8">Skills</h1>
-        <div className="grid grid-cols-2 bg-purple-500/10 shadow-lg shadow-pink-400/30 hover:shadow-xl hover:shadow-pink-400/50 rounded-2xl px-6 py-4 transition">
-          <div className=" col-span-2">
+      <section className="flex flex-col justify-center items-center bg-gray-900 md:text-2xl text-white px-20 py-20">
+        <h1 className="text-2xl md:text-5xl font-bold text-cyan-500 mb-8">Skills</h1>
+        <div className="w-full md:w-auto place-items-center md:place-items-start grid grid-cols-1 md:grid-cols-2 bg-purple-500/10 shadow-lg shadow-pink-400/30 hover:shadow-xl hover:shadow-pink-400/50 rounded-2xl px-6 py-4 transition">
+            {/* Programing*/}
+          <div className="col-span-1 md:col-span-2">
             {/* Languages */}
-            <h2 className="font-semibold mb-5">Languages</h2>
+            <h2 className="font-semibold mb-5 ">Languages</h2>
             <div>
-              <div className="flex text-lg gap-4 mb-4">
+              <div className="flex flex-wrap text-sm md:text-lg gap-4 mb-4">
                 <img src={javaScriptIcon} className=" w-8 h-8" />
                 <p>Javascript</p>
               </div>
-              <div className="flex text-lg gap-4 mb-4">
+              <div className="flex flex-wrap text-sm md:text-lg gap-4 mb-4">
                 <img src={cSharpIcon} className=" w-8 h-8" />
                 <p>C#</p>
               </div>
@@ -38,7 +39,7 @@ export default function Skills() {
             {/* Frameworks */}
             <h2 className="font-semibold mb-5">Frameworks</h2>
             <div>
-              <div className="flex text-lg gap-4 mb-4">
+              <div className="flex flex-wrap text-sm md:text-lg gap-4 mb-4">
                 <img src={reactIcon} className=" w-8 h-8" />
                 <p>React</p>
               </div>
@@ -49,11 +50,11 @@ export default function Skills() {
             {/* CSS Frameworks */}
             <h2 className="font-semibold mb-5">CSS Frameworks</h2>
             <div>
-              <div className="flex text-lg gap-4 mb-4">
+              <div className="flex flex-wrap text-sm md:text-lg gap-4 mb-4">
                 <img src={booststrapIcon} className=" w-8 h-8" />
                 <p>Bootstrap</p>
               </div>
-              <div className="flex text-lg gap-4 mb-4">
+              <div className="flex flex-wrap text-sm md:text-lg gap-4 mb-4">
                 <img src={tailwindcssIcon} className=" w-8 h-8" />
                 <p>Tailwind CSS</p>
               </div>
@@ -64,13 +65,13 @@ export default function Skills() {
           <div>
             <h2 className="font-semibold mb-5">Backend</h2>
             <div>
-              <div className="flex text-lg gap-4 mb-4">
+              <div className="flex flex-wrap text-sm md:text-lg gap-4 mb-4">
                 <img src={nodejsIcon} className=" w-8 h-8" />
                 <p>NodeJS</p>
               </div>
             </div>
             <div>
-              <div className="flex text-lg gap-4 mb-4">
+              <div className="flex flex-wrap text-sm md:text-lg gap-4 mb-4">
                 <img src={expressIcon} className=" w-8 h-8" />
                 <p>Express</p>
               </div>
@@ -80,30 +81,30 @@ export default function Skills() {
             {/* Databases */}
             <h2 className="font-semibold mb-5">Databases</h2>
             <div>
-              <div className="flex text-lg gap-4 mb-4">
+              <div className="flex flex-wrap text-sm md:text-lg gap-4 mb-4">
                 <img src={mongodbIcon} className=" w-8 h-8" />
                 <p>MongoDB</p>
               </div>
             </div>
           </div>
 
-          <div className="col-span-2">
+          <div className="col-span-1 md:col-span-2">
             {/* Tools & Others */}
             <h2 className="font-semibold mb-5">Tools & Others</h2>
-            <div className="flex gap-8">
-              <div className="flex text-lg gap-4 mb-4">
+            <div className="md:flex gap-8">
+              <div className="flex flex-wrap text-sm md:text-lg gap-4 mb-4">
                 <img src={vscodeIcon} className=" w-8 h-8" />
                 <p>VS Code</p>
               </div>
-              <div className="flex text-lg gap-4 mb-4">
+              <div className="flex flex-wrap text-sm md:text-lg gap-4 mb-4">
                 <img src={githubIcon} className=" w-8 h-8" />
                 <p>Github</p>
               </div>
-              <div className="flex text-lg gap-4 mb-4">
+              <div className="flex flex-wrap text-sm md:text-lg gap-4 mb-4">
                 <img src={forkIcon} className=" w-8 h-8" />
                 <p>Fork</p>
               </div>
-              <div className="flex text-lg gap-4 mb-4">
+              <div className="flex flex-wrap text-sm md:text-lg gap-4 mb-4">
                 <img src={unityIcon} className=" w-8 h-8" />
                 <p>Unity</p>
               </div>
