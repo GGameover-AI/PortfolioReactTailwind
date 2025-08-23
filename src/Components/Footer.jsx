@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <Element name="Footer">
       <footer className=" bg-[#0b0f14] text-slate-400 p-5 border-t border-white/10">
-        <div className="grid grid-cols-3 gap-5 px-7">
+        <div className="grid grid-cols-3 md:gap-5 px-7">
           <div className=" flex justify-center items-center gap-8">
             <img src={ReactLogo} className=" size-8 lg:size-12" />
             <img src={TailwindCSSLogo} className=" size-8 lg:size-12" />
