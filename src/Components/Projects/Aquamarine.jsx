@@ -26,9 +26,9 @@ export default function Aquamarine() {
           <li className=" list-disc list-inside">อื่นๆ (ยกเว้น ระบบเสียง,input system,scrolling background)</li>
         </ul>
       {/* ปุ่มลิงค์และTechStack */}
-      <div className="grid grid-cols-2 gap-2 h-full justify-center items-end mt-3">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-2 h-full justify-center items-end mt-3">
         {/* Link Project */}
-        <div className="flex items-center gap-2">
+        <div className="flex justify-center md:justify-start gap-2">
           <a
             href="https://github.com/khonsaiinc/aquamarine"
             target="_blank"
@@ -45,7 +45,7 @@ export default function Aquamarine() {
           </a>
         </div>
         {/* Techstack */}
-        <div className="flex justify-end items-center gap-1">
+        <div className="flex justify-center md:justify-end items-center gap-1">
           <img src={cSharpIcon} className="w-8 h-8 md:w-12 md:h-12" />
           <img src={unityIcon} className="w-8 h-8 md:w-12 md:h-12" />
         </div>

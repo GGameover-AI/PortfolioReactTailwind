@@ -16,8 +16,8 @@ export default function PortfolioWeb() {
         เว็บไซต์สำหรับเก็บสะสมงานและฝึกการใช้ Tailwind CSS ใช้งานง่าย และเหมาะสำหรับใช้แสดงผลงานตัวเอง
       </p>
       {/* ปุ่มลิงค์และTechStack */}
-      <div className="grid grid-cols-2 gap-2 h-full justify-center items-end mt-3">
-        <div className="flex items-center gap-2">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-2 h-full justify-center items-end mt-3">
+        <div className="flex justify-center md:justify-start gap-2">
           <a
             href=""
             className=" bg-pink-500 px-6 py-2 rounded-2xl hover:bg-pink-400 hover:scale-110 hover:shadow-md hover:shadow-pink-400 transition"
@@ -25,7 +25,7 @@ export default function PortfolioWeb() {
             <img src={webIcon} className=" w-6 h-6 md:w-8 md:h-8" />
           </a>
         </div>
-        <div className="flex justify-end items-center gap-1">
+        <div className="flex justify-center md:justify-end items-center gap-1">
           <img src={reactIcon} className="w-8 h-8 md:w-12 md:h-12" />
           <img src={tailwindcssIcon} className="w-8 h-8 md:w-12 md:h-12" />
         </div>
