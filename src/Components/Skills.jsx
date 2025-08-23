@@ -15,13 +15,13 @@ import forkIcon from "../assets/SkillIcons/Fork.png";
 export default function Skills() {
   return (
     <Element name="Skills">
-      <section className="flex flex-col justify-center items-center bg-gray-900 text-white px-20 py-20">
+      <section className="flex flex-col justify-center items-center bg-gray-900 md:text-2xl text-white px-20 py-20">
         <h1 className="text-2xl md:text-5xl font-bold text-cyan-500 mb-8">Skills</h1>
         <div className="w-full md:w-auto place-items-center md:place-items-start grid grid-cols-1 md:grid-cols-2 bg-purple-500/10 shadow-lg shadow-pink-400/30 hover:shadow-xl hover:shadow-pink-400/50 rounded-2xl px-6 py-4 transition">
             {/* Programing*/}
           <div className="col-span-1 md:col-span-2">
             {/* Languages */}
-            <h2 className="font-semibold mb-5">Languages</h2>
+            <h2 className="font-semibold mb-5 ">Languages</h2>
             <div>
               <div className="flex flex-wrap text-sm md:text-lg gap-4 mb-4">
                 <img src={javaScriptIcon} className=" w-8 h-8" />
