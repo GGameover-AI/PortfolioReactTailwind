@@ -10,7 +10,7 @@ export default function App() {
     <div>
       <Navbar/>
 
-      <div className="bg-gray-950 text-2xl">
+      <div className="bg-gray-950">
         <Hero />
         <About/>
         <Skills/>
