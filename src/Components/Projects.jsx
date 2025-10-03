@@ -2,7 +2,7 @@ import { Element } from "react-scroll";
 import SpaceShooter from "./Projects/SpaceShooter";
 import Aquamarine from "./Projects/Aquamarine";
 import PortfolioWeb from "./Projects/PortfolioWeb";
-import MiniEcommerce from "./Projects/miniEcommerce";
+import MiniEcommerce from "./Projects/MiniEcommerce";
 
 
 export default function Projects() {
