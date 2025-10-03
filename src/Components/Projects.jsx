@@ -2,7 +2,7 @@ import { Element } from "react-scroll";
 import SpaceShooter from "./Projects/SpaceShooter";
 import Aquamarine from "./Projects/Aquamarine";
 import PortfolioWeb from "./Projects/PortfolioWeb";
-import SimpleTodolist from "./Projects/SimpleTodolist";
+import MiniEcommerce from "./Projects/miniEcommerce";
 
 
 export default function Projects() {
@@ -19,9 +19,9 @@ export default function Projects() {
           {/* Project 2 */}
           <Aquamarine/>
           {/* Project 3 */}
-          <SimpleTodolist/>
-          {/* Project 4 */}
           <PortfolioWeb/>
+          {/* Project 4 */}
+          <MiniEcommerce/>
         </section>
       </section>
     </Element>
