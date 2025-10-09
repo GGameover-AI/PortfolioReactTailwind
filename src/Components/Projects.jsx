@@ -15,13 +15,13 @@ export default function Projects() {
 
         <section className=" grid grid-cols-1 md:grid-cols-3 text-md md:text-lg gap-8">
           {/* Project 1 */}
-          <SpaceShooter/>
-          {/* Project 2 */}
-          <Aquamarine/>
-          {/* Project 3 */}
-          <PortfolioWeb/>
-          {/* Project 4 */}
           <MiniEcommerce/>
+          {/* Project 2 */}
+          <SpaceShooter/>
+          {/* Project 3 */}
+          <Aquamarine/>
+          {/* Project 4 */}
+          <PortfolioWeb/>
         </section>
       </section>
     </Element>

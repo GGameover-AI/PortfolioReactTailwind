@@ -99,6 +99,10 @@ export default function Skills() {
                 <img src={'https://upload.wikimedia.org/wikipedia/commons/4/41/Microsoft_SQL_Server_2025_icon.svg'} className=" w-8 h-8" />
                 <p>SQL Server</p>
               </div>
+              <div className="flex flex-wrap text-sm md:text-lg gap-4 mb-4">
+                <img src={'https://www.svgrepo.com/show/303301/postgresql-logo.svg'} className=" w-8 h-8" />
+                <p>SQL Server</p>
+              </div>
             </div>
           </div>
 
