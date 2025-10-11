@@ -101,7 +101,7 @@ export default function Skills() {
               </div>
               <div className="flex flex-wrap text-sm md:text-lg gap-4 mb-4">
                 <img src={'https://www.svgrepo.com/show/303301/postgresql-logo.svg'} className=" w-8 h-8" />
-                <p>SQL Server</p>
+                <p>PostgreSQL</p>
               </div>
             </div>
           </div>
