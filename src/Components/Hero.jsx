@@ -9,7 +9,7 @@ export default function Hero() {
           <h1 className="text-cyan-400 text-4xl sm:text-6xl font-bold drop-shadow mb-3">
             Hello,I'm Adison
           </h1>
-          <p className="mb-2 text-sm sm:text-base">Frontend Developer | MERN Stack Enthusiast</p>
+          <p className="mb-2 text-sm sm:text-base">Fullstack Developer | Backend Developer</p>
           <button className="hidden sm:flex px-6 pb-2 pt-1 bg-pink-500 hover:bg-pink-400 rounded-lg shadow-lg border-gray-700 text-white text-center sm:text-2xl">
             <Link to="Projects" smooth={true}>
               Projects
